@@ -13,8 +13,8 @@ function frameIt(){
 }
 
 function pressIt(){
-  $("form").on("submit", function(key){
-    if(key.which===71){
+  $('form').on('submit', function(key){
+    if(key.which==71){
       alert("Alert!");
     }
   })
