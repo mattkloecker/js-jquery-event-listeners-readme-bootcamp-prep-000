@@ -12,6 +12,14 @@ function frameIt(){
   })
 }
 
+function pressIt(){
+  $('form').on('submit', function(){
+    if(key.which===71){
+      alert("Alert!");
+    }
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
