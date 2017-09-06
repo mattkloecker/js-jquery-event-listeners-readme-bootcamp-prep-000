@@ -13,11 +13,12 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('form').on('submit', function(){
+  $("form").on("submit", function(){
     if($( "input:first").val() === "G"){
       alert('Alert!');
       return;
     }
+    return;
   })
 }
 
