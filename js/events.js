@@ -18,7 +18,7 @@ function pressIt(){
       alert('Alert!');
       return;
     }
-  })
+  }
 }
 
 
